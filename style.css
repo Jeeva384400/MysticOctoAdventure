@@ -6,4 +6,6 @@
   h1,p{
     color : red;
   }
-  
+  .inputStyle{
+       margin : 2%;
+  }
