@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<body>
+<input  type="text"
+  label="Enter some text"
+  onblur="onChangeHandler(event)">
+</input>
+<button onclick="asyncApiCallout()">Get random cat image</button>
+<div><img src="" alt="Cat Image" class="catImageClass" id="catId"/></div>
+
+<!-- <div id = "hover" class="hoverClass" style ="background-color : black ; height : 200px ; width:200px"
+onmouseover="mouseEventHandler()"
+onmouseout="onMouseOutHandler()"></div> -->
+
+    <script src="import.js"></script>  
+    <!-- type = "module" -->
+</body>
+</html>
